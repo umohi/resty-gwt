@@ -74,13 +74,17 @@
     <url>http://github.com/chirino/resty-gwt</url>
   </scm>
   <distributionManagement>
-    <site>
-      <id>website.fusesource.org</id>
-      <name>website</name>
-      <url>dav:http://fusesource.com/forge/dav/${forge-project-id}/versions/${project.version}/maven</url>
-    </site>
+    <repository>
+      <id>bedatadriven-oss</id>
+      <name>bedatadriven Open-Source releases</name>
+      <url>http://nexus.bedatadriven.com/content/repositories/oss-releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>bedatadriven-snapshots</id>
+      <name>bedatadriven Open-Source snapshots</name>
+      <url>http://nexus.bedatadriven.com/content/repositories/oss-snapshots</url>
+    </snapshotRepository>
   </distributionManagement>
-  
   <developers>
     <developer>
       <id>chirino</id>
