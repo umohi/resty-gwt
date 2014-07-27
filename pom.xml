@@ -77,12 +77,12 @@
     <repository>
       <id>bedatadriven-oss</id>
       <name>bedatadriven Open-Source releases</name>
-      <url>http://nexus.bedatadriven.com/content/repositories/oss-releases</url>
+      <url>http://146.148.21.56/content/repositories/releases</url>
     </repository>
     <snapshotRepository>
       <id>bedatadriven-snapshots</id>
       <name>bedatadriven Open-Source snapshots</name>
-      <url>http://nexus.bedatadriven.com/content/repositories/oss-snapshots</url>
+      <url>http://146.148.21.56/content/repositories/renjin-latest</url>
     </snapshotRepository>
   </distributionManagement>
   <developers>
